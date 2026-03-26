@@ -8,10 +8,12 @@
 <body>
     <h3>글 목록</h3>
     <a href="write">글 쓰기</a><br>
-
+<ul>
     <c:forEach var="board" items="${boards}">
-        ${board.id}. ${board.title} <br>
-        ${board.content}
+        <li>${board.id}. ${board.title}
+                ${board.content}</li>
+
+</ul>
 
 
     </c:forEach>
