@@ -12,11 +12,8 @@
     <c:forEach var="board" items="${boards}">
         <li>${board.id}. ${board.title}
                 ${board.content}</li>
-
-</ul>
-
-
     </c:forEach>
+</ul>
 
 </body>
 </html>
