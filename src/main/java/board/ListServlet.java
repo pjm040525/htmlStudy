@@ -15,7 +15,7 @@ public class ListServlet extends HttpServlet {
 
         request.setAttribute("boards", Board.boardList);
 
-        request.getRequestDispatcher("list.jsp").forward(request,response);
+        request.getRequestDispatcher("/WEB-INF/list.jsp").forward(request,response);
     }
 
 
