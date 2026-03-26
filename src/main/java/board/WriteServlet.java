@@ -18,7 +18,7 @@ public class WriteServlet extends HttpServlet {
         BoardDTO nBoard = new BoardDTO(Board.sequence++,name,title,content);
         Board.boardList.add(nBoard);
 
-        response.sendRedirect("wirte.jsp");
+        response.sendRedirect("list");
 
     }
 }
