@@ -1,5 +1,6 @@
 package board;
 
+import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -20,5 +21,10 @@ public class WriteServlet extends HttpServlet {
 
         response.sendRedirect("list");
 
+    }
+    @Override
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+
+        request.getRequestDispatcher("/WEB-INF/write.jsp").forward(request,response);
     }
 }
