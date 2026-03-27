@@ -32,7 +32,7 @@
     </table>
     <br><br><br><br>
 <a href="write">
-        <img src="../write.png" alt="글쓰기" width="600" height="400">
+        <img src="../write.svg" alt="글쓰기" width="600" height="400">
 </a>
 </center>
 </body>
