@@ -7,7 +7,9 @@
 </head>
 <body>
     <h3>글 목록</h3>
-    <button type="button" onclick="location.hre='write'">글 쓰기</button>
+    <form action="write" method="get">
+        <button type="submit">글 쓰기</button>
+    </form>
 <ul>
     <c:forEach var="board" items="${boards}">
         <li>${board.id}. ${board.title}
