@@ -7,6 +7,7 @@
     <title>글 목록</title>
 </head>
 <body>
+<center>
     <h3>글 목록</h3>
     <form action="write" method="get">
         <button type="submit">글 쓰기</button>
@@ -33,5 +34,6 @@
 <a href="write">
         <img src="../write.png" alt="글쓰기" width="600" height="400">
 </a>
+</center>
 </body>
 </html>
