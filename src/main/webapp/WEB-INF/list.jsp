@@ -11,12 +11,24 @@
     <form action="write" method="get">
         <button type="submit">글 쓰기</button>
     </form>
-<ul>
-    <c:forEach var="board" items="${boards}">
-        <li>${board.id}. ${board.title}
-                ${board.content}</li>
-    </c:forEach>
-</ul>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>내용</th>
+        </tr>
+        </thead>
+        <tbody>
+            <c:forEach var="board" items="${boards}">
+                <tr>
+                    <td align="center">${board.id}</td>
+                    <td><a href="view?id=${board.id}">${board.title}</a></td>
+                    <td>${board.content}</td>
+                </tr>
+            </c:forEach>
+        </tbody>
+    </table>
 
 </body>
 </html>
