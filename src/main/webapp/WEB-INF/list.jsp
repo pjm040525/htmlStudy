@@ -29,11 +29,9 @@
             </c:forEach>
         </tbody>
     </table>
+    <br><br><br><br>
 <a href="write">
-    <figure>
-        <img src="../write.png" alt="글쓰기">
-        <figcaption>글 등록</figcaption>
-    </figure>
+        <img src="../write.png" alt="글쓰기" width="600" height="400">
 </a>
 </body>
 </html>
