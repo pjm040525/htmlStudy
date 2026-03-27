@@ -7,7 +7,7 @@
 </head>
 <body>
     <h3>글 목록</h3>
-    <a href="write">글 쓰기</a><br>
+    <button type="button" onclick="location.hre='write'">글 쓰기</button>
 <ul>
     <c:forEach var="board" items="${boards}">
         <li>${board.id}. ${board.title}
