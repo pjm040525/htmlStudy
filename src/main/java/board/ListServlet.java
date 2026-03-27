@@ -12,7 +12,7 @@ public class ListServlet extends HttpServlet {
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        request.setCharacterEncoding("UTF-8");
         request.setAttribute("boards", Board.boardList);
 
         request.getRequestDispatcher("/WEB-INF/list.jsp").forward(request,response);
