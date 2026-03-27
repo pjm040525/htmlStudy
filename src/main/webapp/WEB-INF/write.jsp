@@ -18,7 +18,7 @@
       </tr>
       <tr>
         <td align="right">내용:</td>
-        <td><input type="text" name="content"></td>
+        <td><textarea name="content"></textarea></td>
       </tr>
       <tr>
         <td colspan="2" align="center">
