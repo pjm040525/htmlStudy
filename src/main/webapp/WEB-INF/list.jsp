@@ -11,7 +11,7 @@
 <center>
     <h3>글 목록</h3>
     <form action="write" method="get">
-        <button type="submit">글 쓰기</button>
+        <button type="submit"><em>글 쓰기</em></button>
     </form>
     <table border="1">
         <thead>
@@ -25,7 +25,7 @@
             <c:forEach var="board" items="${boards}">
                 <tr>
                     <td align="center">${board.id}</td>
-                    <td><a href="view?id=${board.id}">${board.title}</a></td>
+                    <td><a href="view?id=${board.id}"><b>${board.title}</b></a></td>
                     <td>${board.content}</td>
                 </tr>
             </c:forEach>
