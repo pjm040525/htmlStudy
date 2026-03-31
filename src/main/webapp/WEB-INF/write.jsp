@@ -12,15 +12,15 @@
     <table>
       <tr>
         <td align="right">작성자:</td>
-        <td><input type="text" name="name"></td>
+        <td><input type="text" name="name" autofocus required></td>
       </tr>
       <tr>
         <td align="right">제목:</td>
-        <td><input type="text" name="title"></td>
+        <td><input type="text" name="title" required></td>
       </tr>
       <tr>
         <td align="right">내용:</td>
-        <td><textarea name="content"></textarea></td>
+        <td><textarea name="content" required></textarea></td>
       </tr>
       <tr>
         <td colspan="2" align="center">
